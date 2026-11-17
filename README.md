@@ -1,10 +1,23 @@
-# Aran Shayan
+<a href="https://aranshayan.com">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+    <img alt="Aran Shayan, senior frontend engineer. Platforms, APIs and data heavy interfaces." src="assets/header-light.svg" width="100%">
+  </picture>
+</a>
 
-Senior frontend engineer. I build fast, accessible, data-heavy interfaces with React, Next.js and TypeScript, and I design the APIs and data models behind them when a product needs it.
+<p align="center">
+  <a href="https://aranshayan.com"><b>Portfolio</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://aranshayan.com/hire">For recruiters</a>
+  &nbsp;·&nbsp;
+  <a href="https://aranshayan.com/aran-shayan-resume.pdf">Résumé (PDF)</a>
+  &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/aran-shayan-7b0b1a194">LinkedIn</a>
+  &nbsp;·&nbsp;
+  <a href="mailto:hi@aranshayan.com">hi@aranshayan.com</a>
+</p>
 
-Six years in software: four leading the frontend of enterprise and banking platforms, two building backend services before that. Open to senior frontend and frontend lead roles.
-
-[Portfolio](https://aranshayan.com) · [For recruiters](https://aranshayan.com/hire) · [Résumé (PDF)](https://aranshayan.com/aran-shayan-resume.pdf) · [LinkedIn](https://www.linkedin.com/in/aran-shayan-7b0b1a194) · [hi@aranshayan.com](mailto:hi@aranshayan.com)
+Six years in software: four leading the frontend of enterprise and banking platforms, two building backend services before that. I build fast, accessible, data heavy interfaces with React, Next.js and TypeScript, and I design the APIs and data models behind them when a product needs it.
 
 ## Highlights
 
@@ -12,17 +25,17 @@ Six years in software: four leading the frontend of enterprise and banking platf
 - Designed an authorization control plane and the tenancy and organisation services behind an ERP, from data model to OpenAPI contract.
 - Built liquidity supervision and settlement reporting interfaces that run in production at a national bank.
 - Found a SQL injection risk in the platform's database nodes and specified the fix across six database engines.
-- Created the shared design system and kept data-heavy screens fast with virtualisation and careful state management.
+- Created the shared design system and kept data heavy screens fast with virtualisation and careful state management.
 
 ## Live demos
 
 My client work runs behind bank firewalls, so I rebuilt the hard parts in the open. Plain React and TypeScript, no component libraries.
 
-| Demo | What it shows |
-|---|---|
-| [A million-row ledger](https://aranshayan.com/lab/grid) | Scroll, sort and search a million transactions without the page stuttering |
-| [A live payments monitor](https://aranshayan.com/lab/dashboard) | Hundreds of events a second, charts drawn on canvas |
-| [A no-code API flow builder](https://aranshayan.com/lab/flow) | Drag nodes, wire them together and run a request through the flow |
+<p align="center">
+  <a href="https://aranshayan.com/lab/grid"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/lab-grid-dark.svg"><img alt="A million-row ledger" src="assets/lab-grid-light.svg" width="32%"></picture></a>
+  <a href="https://aranshayan.com/lab/dashboard"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/lab-monitor-dark.svg"><img alt="A live payments monitor" src="assets/lab-monitor-light.svg" width="32%"></picture></a>
+  <a href="https://aranshayan.com/lab/flow"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/lab-flow-dark.svg"><img alt="A no-code API flow builder" src="assets/lab-flow-light.svg" width="32%"></picture></a>
+</p>
 
 ## Case studies
 
@@ -38,12 +51,15 @@ My client work runs behind bank firewalls, so I rebuilt the hard parts in the op
 - [A design system for products people use all day](https://aranshayan.com/writing/design-system-for-enterprise)
 - [Hide the button, enforce on the server](https://aranshayan.com/writing/authorization-multi-tenant)
 
+## Stack
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
+  <img alt="TypeScript, React, Next.js, Tailwind CSS, Node.js, Python, Java, Rust, Go, PostgreSQL, SQLite, Kafka, Docker, Kubernetes" src="assets/stack-light.svg" width="100%">
+</picture>
+
+Every day: TypeScript, React, Next.js, HTML and CSS, Tailwind CSS. Most weeks: state and data fetching, testing, accessibility (WCAG), Core Web Vitals, design systems. Also REST and OpenAPI, SpiceDB and Keycloak.
+
 ## Research
 
 - [cold-start-poi-recsys](https://github.com/aranshayan/cold-start-poi-recsys): MSc research code comparing prototypical networks and MAML for user cold-start POI recommendation, with a reproducible pipeline.
-
-## Stack
-
-- **Every day:** TypeScript, React, Next.js, HTML and CSS, Tailwind CSS
-- **Most weeks:** state and data fetching, testing, accessibility (WCAG), Core Web Vitals, design systems
-- **Across the stack:** Node.js, Python, Java, Rust, Go, REST and OpenAPI, PostgreSQL, SQLite, SpiceDB, Keycloak, Kafka, Docker, Kubernetes
