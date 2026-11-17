@@ -37,6 +37,21 @@ My client work runs behind bank firewalls, so I rebuilt the hard parts in the op
   <a href="https://aranshayan.com/lab/flow"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/lab-flow-dark.svg"><img alt="A no-code API flow builder" src="assets/lab-flow-light.svg" width="32%"></picture></a>
 </p>
 
+## AI and models
+
+<p align="center">
+  <a href="https://aranshayan.com/services/ai-agents"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/ai-agent-dark.svg"><img alt="An agent run: retrieval, a read-only tool call, a confirmation step, an eval check and a streamed answer with citations" src="assets/ai-agent-light.svg" width="49%"></picture></a>
+  <a href="https://aranshayan.com/work/cold-start-recommender"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/ai-research-dark.svg"><img alt="Meta-learning research results: +21.7% NDCG@10 and +26.3% Recall@10 over a graph neural network baseline" src="assets/ai-research-light.svg" width="49%"></picture></a>
+</p>
+
+- **Assistants on your data:** retrieval over documents, tickets or databases, with citations so people can check every answer.
+- **Tool calling agents:** agents that call internal APIs to get work done, with clear limits and a confirmation step for risky actions.
+- **Evaluations:** test sets and automated checks that measure quality before and after every prompt or model change.
+- **Model choice:** whatever fits the task, cost and data rules. The system is built so the model can be swapped without a rewrite, and personal data is masked before it reaches a model.
+- **Research:** a meta-learning recommender for new users, with MAML and a prototypical network on graph, geographic and social features. +21.7% NDCG@10 and +26.3% Recall@10 over a graph neural network baseline, and the prototypical network trains 3.5x faster than MAML at similar accuracy. [Case study](https://aranshayan.com/work/cold-start-recommender) · [Article](https://aranshayan.com/writing/meta-learning-cold-start) · [Code](https://github.com/aranshayan/cold-start-poi-recsys)
+
+AI stack: AI SDK, TypeScript, Python, pgvector, LangGraph, PyTorch, graph neural networks.
+
 ## Case studies
 
 - [API Platform](https://aranshayan.com/work/api-platform): enterprise API management for banks and telecom operators
@@ -55,11 +70,7 @@ My client work runs behind bank firewalls, so I rebuilt the hard parts in the op
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
-  <img alt="TypeScript, React, Next.js, Tailwind CSS, Node.js, Python, Java, Rust, Go, PostgreSQL, SQLite, Kafka, Docker, Kubernetes" src="assets/stack-light.svg" width="100%">
+  <img alt="TypeScript, React, Next.js, Tailwind CSS, Node.js, Python, PyTorch, Java, Rust, Go, PostgreSQL, SQLite, Kafka, Docker, Kubernetes" src="assets/stack-light.svg" width="100%">
 </picture>
 
 Every day: TypeScript, React, Next.js, HTML and CSS, Tailwind CSS. Most weeks: state and data fetching, testing, accessibility (WCAG), Core Web Vitals, design systems. Also REST and OpenAPI, SpiceDB and Keycloak.
-
-## Research
-
-- [cold-start-poi-recsys](https://github.com/aranshayan/cold-start-poi-recsys): MSc research code comparing prototypical networks and MAML for user cold-start POI recommendation, with a reproducible pipeline.
