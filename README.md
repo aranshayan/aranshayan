@@ -12,7 +12,7 @@
   &nbsp;·&nbsp;
   <a href="https://aranshayan.com/aran-shayan-resume.pdf">Résumé (PDF)</a>
   &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/aran-shayan-7b0b1a194">LinkedIn</a>
+  <a href="https://www.linkedin.com/in/aranshayan">LinkedIn</a>
   &nbsp;·&nbsp;
   <a href="mailto:hi@aranshayan.com">hi@aranshayan.com</a>
 </p>
