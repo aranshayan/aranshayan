@@ -1,7 +1,7 @@
 <a href="https://aranshayan.com">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-    <img alt="Aran Shayan, senior frontend engineer. Platforms, APIs and data heavy interfaces." src="assets/header-light.svg" width="100%">
+    <img alt="Aran Shayan, Frontend Developer, remote. I build data heavy interfaces and the APIs behind them." src="assets/header-light.svg" width="100%">
   </picture>
 </a>
 
@@ -14,27 +14,39 @@
   &nbsp;·&nbsp;
   <a href="https://www.linkedin.com/in/aranshayan">LinkedIn</a>
   &nbsp;·&nbsp;
+  <a href="https://x.com/aranshayan">X</a>
+  &nbsp;·&nbsp;
+  <a href="https://t.me/aranshayan">Telegram</a>
+  &nbsp;·&nbsp;
   <a href="mailto:hi@aranshayan.com">hi@aranshayan.com</a>
 </p>
 
-Six years in software: four leading the frontend of enterprise and banking platforms, two building backend services before that. I build fast, accessible, data heavy interfaces with React, Next.js and TypeScript, and I design the APIs and data models behind them when a product needs it.
+I build data heavy interfaces and the APIs behind them. Six years in software: on banking and enterprise platforms since 2023, after two years building backend services. That mix means I design a screen with the API, the database and the network in mind, and design those too when a product needs it. My stack is React, Next.js and TypeScript.
 
 ## Highlights
 
-- Led the frontend of an API integration platform for banks and telecom operators, including a no-code builder for connecting APIs.
+- Led the frontend of an API integration platform for banks and telecom operators, including a no code builder for connecting APIs.
 - Designed an authorization control plane and the tenancy and organisation services behind an ERP, from data model to OpenAPI contract.
 - Built liquidity supervision and settlement reporting interfaces that run in production at a national bank.
 - Found a SQL injection risk in the platform's database nodes and specified the fix across six database engines.
 - Created the shared design system and kept data heavy screens fast with virtualisation and careful state management.
 
+## Now
+
+- **Looking for:** a frontend or full stack role on enterprise, data or platform products. Remote.
+- **Building:** an AI project I am not ready to describe yet, and [Alita](https://aranshayan.com/work/alita), a local first system manager for developers.
+- **Writing:** articles on frontend architecture, large tables and designing contracts before code.
+
+More on the [Now page](https://aranshayan.com/now).
+
 ## Live demos
 
-My client work runs behind bank firewalls, so I rebuilt the hard parts in the open. Plain React and TypeScript, no component libraries.
+My client work runs behind bank firewalls, so I rebuilt the hard parts as live demos you can open and try. Plain React and TypeScript, no component libraries.
 
 <p align="center">
-  <a href="https://aranshayan.com/lab/grid"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/lab-grid-dark.svg"><img alt="A million-row ledger" src="assets/lab-grid-light.svg" width="32%"></picture></a>
+  <a href="https://aranshayan.com/lab/grid"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/lab-grid-dark.svg"><img alt="A million row ledger" src="assets/lab-grid-light.svg" width="32%"></picture></a>
   <a href="https://aranshayan.com/lab/dashboard"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/lab-monitor-dark.svg"><img alt="A live payments monitor" src="assets/lab-monitor-light.svg" width="32%"></picture></a>
-  <a href="https://aranshayan.com/lab/flow"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/lab-flow-dark.svg"><img alt="A no-code API flow builder" src="assets/lab-flow-light.svg" width="32%"></picture></a>
+  <a href="https://aranshayan.com/lab/flow"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/lab-flow-dark.svg"><img alt="A no code API flow builder" src="assets/lab-flow-light.svg" width="32%"></picture></a>
 </p>
 
 ## AI and models
@@ -57,7 +69,9 @@ AI stack: AI SDK, TypeScript, Python, pgvector, LangGraph, PyTorch, graph neural
 - [API Platform](https://aranshayan.com/work/api-platform): enterprise API management for banks and telecom operators
 - [Access Control](https://aranshayan.com/work/access-control): a control plane for fine-grained permissions
 - [Branch Liquidity](https://aranshayan.com/work/branch-liquidity): cash supervision across a bank's branch network
-- [Alita](https://aranshayan.com/work/alita): a local-first system manager for developers and their teams
+- [Alita](https://aranshayan.com/work/alita): a local first system manager for developers and their teams
+
+All of it, with architecture diagrams, in [Work](https://aranshayan.com/work).
 
 ## Writing
 
@@ -65,6 +79,8 @@ AI stack: AI SDK, TypeScript, Python, pgvector, LangGraph, PyTorch, graph neural
 - [APIs a frontend can live with: designing the contract first](https://aranshayan.com/writing/contract-first-apis)
 - [A design system for products people use all day](https://aranshayan.com/writing/design-system-for-enterprise)
 - [Hide the button, enforce on the server](https://aranshayan.com/writing/authorization-multi-tenant)
+
+Shorter pieces are in [Notes](https://aranshayan.com/notes).
 
 ## Stack
 
