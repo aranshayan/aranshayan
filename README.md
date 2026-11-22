@@ -49,6 +49,10 @@ My client work runs behind bank firewalls, so I rebuilt the hard parts as live d
   <a href="https://aranshayan.com/lab/flow"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/lab-flow-dark.svg"><img alt="A no code API flow builder" src="assets/lab-flow-light.svg" width="32%"></picture></a>
 </p>
 
+## Open source
+
+- **[Tellerline](https://github.com/aranshayan/tellerline):** accessible React components for banking and back-office apps, installed with the shadcn CLI. A money input that never rounds and keeps the caret in place, and an audit timeline grouped by day in the reader's time zone. Tested with axe, and CI installs every component into a fresh Next.js app. [Docs and live demos](https://tellerline-ui.vercel.app)
+
 ## AI and models
 
 <p align="center">
