@@ -14,7 +14,7 @@ Six years in software: two building backend services, then banking and enterpris
 
 ## Selected work
 
-**[statement-extract](https://github.com/aranshayan/statement-extract)**: Claude turns PDF bank statements into ledger-ready transactions, then plain arithmetic checks every balance to the cent before the data is trusted. Measured with an eval suite of 16 real-world statement layouts from eight countries.
+**[statement-extract](https://github.com/aranshayan/statement-extract)**: Claude turns PDF bank statements into ledger-ready transactions, then plain arithmetic checks every balance to the cent before the data is trusted. Measured with an eval suite of 16 statement layouts from eight countries.
 
 **[Tellerline](https://github.com/aranshayan/tellerline)**: accessible React components for banking and back-office apps, installed with the shadcn CLI. A money input that never rounds and keeps the caret in place, an audit timeline in the reader's time zone, and a maker-checker approval flow whose rules also run on the server. Tested with axe, and CI installs every component into a fresh Next.js app. [Docs and demos](https://tellerline-ui.vercel.app)
 
