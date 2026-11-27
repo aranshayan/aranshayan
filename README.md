@@ -1,4 +1,4 @@
-**Product engineer. I build data-heavy interfaces, the APIs behind them, and AI tools people can trust with real data.**
+**Software engineer. I build data-heavy interfaces, the APIs behind them, and AI tools people can trust with real data.**
 
 Six years in software: two building backend services, then banking and enterprise platforms since 2023, where a wrong number is worse than no number. That mix means I design a screen with the API, the database and the network in mind, and I bring the same habit to AI work: give the model only the access it needs, check its output with something that does not depend on trusting it, and measure quality before and after every change.
 
