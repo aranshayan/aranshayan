@@ -1,5 +1,3 @@
-# Aran Shayan
-
 **Product engineer. I build data-heavy interfaces, the APIs behind them, and AI tools people can trust with real data.**
 
 Six years in software: two building backend services, then banking and enterprise platforms since 2023, where a wrong number is worse than no number. That mix means I design a screen with the API, the database and the network in mind, and I bring the same habit to AI work: give the model only the access it needs, check its output with something that does not depend on trusting it, and measure quality before and after every change.
@@ -16,7 +14,7 @@ Six years in software: two building backend services, then banking and enterpris
 
 ## Selected work
 
-**[statement-extract](https://github.com/aranshayan/statement-extract)**: Claude reads a PDF bank statement, then plain arithmetic checks the result. The opening balance plus every amount has to equal the closing balance to the cent, every printed running balance has to match, and every date has to fall inside the period. If a check fails, Claude gets one retry with the exact errors; if that fails too, the output is marked failed with the reasons. Ships with an eval suite of 16 statements with ground truth, covering eight countries, page-break carry-overs, zero- and three-decimal currencies, lakh grouping and newest-first ordering.
+**[statement-extract](https://github.com/aranshayan/statement-extract)**: Claude turns PDF bank statements into ledger-ready transactions, then plain arithmetic checks every balance to the cent before the data is trusted. Measured with an eval suite of 16 real-world statement layouts from eight countries.
 
 **[Tellerline](https://github.com/aranshayan/tellerline)**: accessible React components for banking and back-office apps, installed with the shadcn CLI. A money input that never rounds and keeps the caret in place, an audit timeline in the reader's time zone, and a maker-checker approval flow whose rules also run on the server. Tested with axe, and CI installs every component into a fresh Next.js app. [Docs and demos](https://tellerline-ui.vercel.app)
 
